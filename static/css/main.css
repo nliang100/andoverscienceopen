@@ -36,6 +36,15 @@ nav{
     font-size: 14px;
 }
 
+.inner-button a{
+    text-decoration: none;
+}
+
+.inner-button a:visited{
+    text-decoration: none;
+    color: black;
+}
+
 .nav-links li{
     list-style: none;
     display: table-cell;
@@ -349,7 +358,7 @@ nav{
     width: 100%;
     
     /* background styling */
-    background-color: black;
+    background-color: #000000;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -385,7 +394,7 @@ nav{
 }
 
 .grey{
-    background-color: lightgray;
+    background-color: #D3D3D3;
     height: auto;
     width: 100%;
 
@@ -542,4 +551,9 @@ table.alt tfoot {
 .team-container2{
     width: 34.5%;
     
+}
+
+iframe {
+    height: 100vh;
+    width: 100vw;
 }
