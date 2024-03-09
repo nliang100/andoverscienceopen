@@ -160,7 +160,7 @@ nav{
 
 .hero-image {
     /* sizing */
-    width: 100%;
+    width: 100vw;
     height: 100vh;
 
     /* background styling */
@@ -352,6 +352,18 @@ nav{
     }
 }
 
+@media screen and (max-width:618px) {
+    .hero-description {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:442px) {
+    .hero-description {
+        font-size: 0.4em;
+    }
+}
+
 .spotlight{
     /* sizing */
     height: 50vh;
@@ -509,7 +521,7 @@ table.alt tfoot {
 
 .column {
     float: left;
-    width: 33.33%;
+    width: 25%;
 }
 
 .column2 {
