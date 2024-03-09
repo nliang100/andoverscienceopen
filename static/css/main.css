@@ -106,6 +106,10 @@ nav{
         display: block;
         cursor: pointer;
     }
+
+    .column p {
+        font-size: 0.8em;
+    }
 }
 
 .nav-active{
@@ -361,6 +365,10 @@ nav{
 @media screen and (max-width:442px) {
     .hero-description {
         font-size: 0.4em;
+    }
+
+    .column p {
+        font-size: 0.6em;
     }
 }
 
